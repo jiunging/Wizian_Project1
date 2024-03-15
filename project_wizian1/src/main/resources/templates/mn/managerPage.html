@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
+  <script src="/js/jquery-3.7.1.min.js"></script>
+  <script src="https://kit.fontawesome.com/580a20ac80.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/580a20ac80.js" crossorigin="anonymous"></script>
+  <script>$(function(){$("#header").load("/html/include__login/header.html");$("#footer").load("/html/include/footer.html");});</script>
+  <script src="/js/user/mypage.js"></script>
+  <link rel="stylesheet" href="/css/mn/managerPage.css">
+  <title>Document</title>
+</head>
+<body>
+<div th:include="/include/stu_header"></div>
+
+  <section>
+
+    <div class="my__wrapper">
+      <div class="my__wrapper__set">
+
+        <!-- 왼쪽 화면 -->
+        <div class="my__left">
+
+          <div class="my__left__header"><span>채용담당자</span></div>
+
+          <div class="my__left__body">
+
+            <a href=""><div class="my__left__menu">My Career</div></a>
+            <a href=""><div class="my__left__menu">채용공고/기업등록</div></a>
+            <a href=""><div class="my__left__menu">입사지원/이력서</div></a>
+            <a href=""><div class="my__left__menu">회원정보수정</div></a>
+            
+          </div>
+
+        </div>
+
+
+        <!-- 오른쪽 화면 -->
+        <div class="my__right">
+
+          <div class="my__header"><span>기업/학생 관리 내역</span></div>
+
+          <div class="my__body">
+
+            <div class="my__body__header">
+              <div class="alarm"><span>전체</span><div class="alarm__cnt">5</div></div>
+              <div class="alarm"><span>공고등록요청 내역</span><div class="alarm__cnt">5</div></div>
+              <div class="alarm"><span>이력서지원요청 내역</span><div class="alarm__cnt">5</div></div>
+            </div>
+
+            <div class="my__body__two">
+
+              <div class="my__info">
+                <img src="/img/default.png" alt="기본이미지">
+                <span>session.mn_id 님</span>
+              </div>
+
+              <div class="my__info2">
+                <span>나의 부서<a href=""><i class="fa-solid fa-pencil"></i></a></span>
+                <div class="my__info2__detail"><span>DB.mn_department</span></div>
+              </div>
+
+            </div>
+
+            <div class="my__body__three">
+
+              <div class="body__three__left">
+                <div class="three__left__header"><span>공고 등록 요청 리스트</span></div>
+                <form class="three__left__body">
+                  <div class="left__body__list"><a href="">기업에서 공고 등록을 요청한 회사명과 제목</a></div>
+                  <div class="list__permit">
+                    <button>승인</button>
+                    <button>거절</button>
+                  </div>
+                </form>
+                <form class="three__left__body">
+                  <div class="left__body__list"><a href="">기업에서 공고 등록을 요청한 회사명과 제목</a></div>
+                  <div class="list__permit">
+                    <button>승인</button>
+                    <button>거절</button>
+                  </div>
+                </form>
+                <form class="three__left__body">
+                  <div class="left__body__list"><a href="">기업에서 공고 등록을 요청한 회사명과 제목</a></div>
+                  <div class="list__permit">
+                    <button>승인</button>
+                    <button>거절</button>
+                  </div>
+                </form>
+                <form class="three__left__body">
+                  <div class="left__body__list"><a href="">기업에서 공고 등록을 요청한 회사명과 제목</a></div>
+                  <div class="list__permit">
+                    <button>승인</button>
+                    <button>거절</button>
+                  </div>
+                </form>
+                <form class="three__left__body">
+                  <div class="left__body__list"><a href="">기업에서 공고 등록을 요청한 회사명과 제목</a></div>
+                  <div class="list__permit">
+                    <button>승인</button>
+                    <button>거절</button>
+                  </div>
+                </form>
+                <form class="three__left__body">
+                  <div class="left__body__list"><a href="">기업에서 공고 등록을 요청한 회사명과 제목</a></div>
+                  <div class="list__permit">
+                    <button>승인</button>
+                    <button>거절</button>
+                  </div>
+                </form>
+                <form class="three__left__body">
+                  <div class="left__body__list"><a href="">기업에서 공고 등록을 요청한 회사명과 제목</a></div>
+                  <div class="list__permit">
+                    <button>승인</button>
+                    <button>거절</button>
+                  </div>
+                </form>
+              </div>
+
+              <div class="body__three__right">
+                <div class="three__right__header"><span>입사 지원 요청</span></div>
+                <div class="three__right__body">
+                  <div class="right__body__list"><a href="">학생이 기업으로 입사요청시 관리자의 승인 및 거절 작업</a></div>
+                  <div class="list__permit">
+                    <button>승인</button>
+                    <button>거절</button>
+                  </div>
+                </div>
+                <div class="three__right__body">
+                  <div class="right__body__list"><a href="">학생이 기업으로 입사요청시 관리자의 승인 및 거절 작업</a></div>
+                  <div class="list__permit">
+                    <button>승인</button>
+                    <button>거절</button>
+                  </div>
+                </div>
+                <div class="three__right__body">
+                  <div class="right__body__list"><a href="">학생이 기업으로 입사요청시 관리자의 승인 및 거절 작업</a></div>
+                  <div class="list__permit">
+                    <button>승인</button>
+                    <button>거절</button>
+                  </div>
+                </div>
+                <div class="three__right__body">
+                  <div class="right__body__list"><a href="">학생이 기업으로 입사요청시 관리자의 승인 및 거절 작업</a></div>
+                  <div class="list__permit">
+                    <button>승인</button>
+                    <button>거절</button>
+                  </div>
+                </div>
+                <div class="three__right__body">
+                  <div class="right__body__list"><a href="">학생이 기업으로 입사요청시 관리자의 승인 및 거절 작업</a></div>
+                  <div class="list__permit">
+                    <button>승인</button>
+                    <button>거절</button>
+                  </div>
+                </div>
+                <div class="three__right__body">
+                  <div class="right__body__list"><a href="">학생이 기업으로 입사요청시 관리자의 승인 및 거절 작업</a></div>
+                  <div class="list__permit">
+                    <button>승인</button>
+                    <button>거절</button>
+                  </div>
+                </div>
+                <div class="three__right__body">
+                  <div class="right__body__list"><a href="">학생이 기업으로 입사요청시 관리자의 승인 및 거절 작업</a></div>
+                  <div class="list__permit">
+                    <button>승인</button>
+                    <button>거절</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="my__body__four">
+
+              <div class="body__four__try">
+
+                <div class="four__try__header"><span>회사채용에 합격한 학생 리스트</span></div>
+                <div class="four__try__body">
+                  <div class="four__try__list"><a href="">학과/학번/이름/회사</a></div>
+                </div>
+                <div class="four__try__body">
+                  <div class="four__try__list"><a href="">학과/학번/이름/회사</a></div>
+                </div>
+                <div class="four__try__body">
+                  <div class="four__try__list"><a href="">학과/학번/이름/회사</a></div>
+                </div>
+                <div class="four__try__body">
+                  <div class="left__body__list"><a href="">학과/학번/이름/회사</a></div>
+                </div>
+                <div class="four__try__body">
+                  <div class="four__try__list"><a href="">학과/학번/이름/회사</a></div>
+                </div>
+                <div class="four__try__body">
+                  <div class="four__try__list"><a href="">학과/학번/이름/회사</a></div>
+                </div>
+                <div class="four__try__body">
+                  <div class="four__try__list"><a href="">학과/학번/이름/회사</a></div>
+                </div>
+              </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+
+  </section>
+
+ <div th:include="/include/footer"></div>
+</body>
+</html>

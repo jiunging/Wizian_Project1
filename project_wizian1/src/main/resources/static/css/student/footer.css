@@ -1,0 +1,26 @@
+html, body{margin: 0;padding: 0;font-family: "Gothic A1", sans-serif;}
+ul, ol, li{list-style: none;}
+button, a{cursor: pointer;}
+button, a, li{color: black;}
+a:link, a:hover, a:focus, a:visited{text-decoration: none;}
+span, a, p, button{font-family: "Gothic A1", sans-serif; font-weight: 400; font-style: normal;}
+
+.footer__wrapper{width: 100%; padding: 50px 0px; border-top: 1px solid rgb(204, 203, 203);}
+.footer__wrapper__set{display: flex; align-items: center; justify-content: center;}
+.footer__wrapper__body{width: 1280px; display: flex;}
+
+.footer__left{width: 300px;}
+.footer__left img{width: 100%;}
+
+.footer__right{width: 980px; display: flex; flex-direction: column;}
+.footer__right__above{display: flex; justify-content: space-between;}
+.right__above__left{display: flex; align-items: center; margin-left: 100px;}
+.right__above__left a{padding: 0px 15px; font-weight: 600;}
+#personal{color: rgb(49, 100, 241);}
+
+.right__above__right select{width: 180px;height: 30px; background-color: rgb(228, 228, 233); border: 0.5px solid gray;}
+.right__above__right > select > option { text-align: center;}
+
+.footer__right__below{font-size: 13px; margin-left: 115px; margin-top: 30px;}
+
+

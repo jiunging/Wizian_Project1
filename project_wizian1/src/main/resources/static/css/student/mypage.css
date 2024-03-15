@@ -1,0 +1,64 @@
+.myPage_status{
+  display: flex;
+  justify-content: center;
+}
+
+.myPage_box{
+  width: 1200px;
+  height:300px;
+  border: 1px solid black;
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myPage_pic{
+  width: 100px;
+  height: 100px;
+  margin-left: 120px;
+}
+
+.resume_container{
+  height:60%;
+  width: 50%;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.resume_wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.resume_his_cnt{
+  background-color: rgb(233, 233, 233);
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.resume_status_cnt{
+  background-color: rgb(233, 233, 233);
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+
+.myPage_info{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+

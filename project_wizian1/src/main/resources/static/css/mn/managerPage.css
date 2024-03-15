@@ -1,0 +1,79 @@
+html, body{margin: 0;padding: 0;font-family: "Gothic A1", sans-serif;}
+ul, ol, li{list-style: none;}
+button, a{cursor: pointer;}
+button, a, li{color: black;}
+a:link, a:hover, a:focus, a:visited{text-decoration: none;}
+span, a, p, button{font-family: "Gothic A1", sans-serif; font-weight: 400; font-style: normal;}
+
+section{width: 100%;}
+
+.my__wrapper{width: 100%; display: flex; align-items: center; justify-content: center;}
+.my__wrapper__set{width: 1280px; display: flex; justify-content: center;}
+
+/* 왼쪽 화면 */
+.my__left{width: 17%;}
+
+.my__left__header{width: 100%; height: 40px; border: 1px solid rgb(192, 192, 192); display: flex; align-items: center; justify-content: center; background-color: rgb(49, 100, 241);}
+.my__left__header span{color: white; font-weight: 600; font-size: 13px;}
+
+.my__left__body{width: 100%; display: flex; flex-direction: column; border: 1px solid rgb(192, 192, 192);}
+.my__left__menu{padding: 10px 10px; display: flex; font-size: 13px; border-bottom: 1px solid rgb(192, 192, 192);}
+
+/* 오른쪽 화면 */
+.my__right{width: 83%; border: 1px solid rgb(192, 192, 192); display: flex; flex-direction: column; justify-content: center; align-items: center; padding-bottom: 10px;}
+
+/* 오른쪽 화면 타이틀 */
+.my__header{width: 95%; margin-top: 20px;}
+.my__header span{font-size: 17px; font-weight: 600; color: rgb(51, 50, 50);}
+
+/* 오른쪽 화면 본문 */
+.my__body{width: 95%; border: 1px solid rgb(192, 192, 192); margin-top: 10px; padding-bottom: 10px;}
+
+/* 오른쪽 본문 상단 */
+.my__body__header{width: 100%; display: flex;}
+.alarm{display: flex; align-items: center; padding: 10px 15px; cursor: pointer;}
+.alarm:hover{font-weight: 600; color: gray;}
+.alarm span{font-size: 15px; font-weight: 600;}
+.alarm__cnt{margin-left: 5px; border: 1px solid gray; border-radius: 50px; width: 15px; height: 15px; display: flex; align-items: center; justify-content: center; font-size: 12px;}
+
+/* 오른쪽 본문 중간 */
+.my__body__two{width: 100%; margin-top: 10px; display: flex; flex-direction: column; }
+.my__info{width: 100%; height: 100px; margin-left: 10px; display: flex; align-items: center;  justify-content: center;}
+.my__info img{width: 100px; height: 100px; border-radius: 50px; border: 2px solid rgb(49, 100, 241);}
+.my__info span{margin-left: 20px; font-weight: 600; font-size: 20px;}
+
+.my__info2{width: 95%; margin-top: 20px; margin-left: 15px; display: flex; flex-direction: column; padding-bottom: 10px; align-items: center;}
+.my__info2 span{font-weight: 600;}
+.my__info2 > span > a {cursor: pointer;}
+.my__info2 > span > a:hover{color: gray;}
+.my__info2__detail{margin-top: 6px;}
+.my__info2__detail span{color: black; font-weight: 600;}
+
+/* 오른쪽 본문 세번쨰 */
+.my__body__three{width: 100%; margin-top: 10px; display: flex; justify-content: space-evenly;}
+.body__three__left{width: 48%; height: 300px; border: 1px solid rgb(192, 192, 192); display: flex; flex-direction: column; overflow: auto;}
+.three__left__header{width: 100%; display: flex; align-items: center; justify-content: center; background-color: rgb(18, 18, 105); padding: 10px 0px;}
+.three__left__header span{color: rgb(199, 194, 194); font-weight: 600;}
+.three__left__body{width: 100%; display: flex; align-items: center; justify-content: center; padding: 10px 0px; border-bottom: 1px solid rgb(192, 192, 192);}
+.list__permit{display: flex; margin-left: 10px;}
+.list__permit button{margin: 0px 1px;}
+.left__body__list a{font-size: 13px;}
+.left__body__list:hover a{border-bottom: 1px solid black;}
+
+.body__three__right{width: 48%; height: 300px; border: 1px solid rgb(192, 192, 192); display: flex; flex-direction: column; overflow: auto;}
+.three__right__header{width: 100%; display: flex; align-items: center; justify-content: center; background-color: rgb(18, 18, 105); padding: 10px 0px;}
+.three__right__header span{color: rgb(199, 194, 194); font-weight: 600;}
+.three__right__body{width: 100%; display: flex; align-items: center; justify-content: center; padding: 10px 0px; border-bottom: 1px solid rgb(192, 192, 192);}
+.right__body__list a{font-size: 13px;}
+.right__body__list:hover a{border-bottom: 1px solid black;}
+.list__permit{display: flex; margin-left: 10px;}
+.list__permit button{margin: 0px 1px;}
+
+/* 오른쪽 본문 네번쨰 */
+.my__body__four{width: 100%; margin-top: 20px; display: flex; align-items: center; justify-content: center;}
+.body__four__try{width: 96%; height: 300px; border: 1px solid rgb(192, 192, 192); overflow: auto; display: flex; flex-direction: column; }
+.four__try__header{width: 100%; display: flex; align-items: center; justify-content: center; background-color: rgb(18, 18, 105); padding: 10px 0px;}
+.four__try__header span{color: rgb(199, 194, 194); font-weight: 600;}
+.four__try__body{width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 10px 0px; border-bottom: 1px solid rgb(192, 192, 192);}
+.four__try__list a{font-size: 13px;}
+.four__try__list:hover a{border-bottom: 1px solid black;}

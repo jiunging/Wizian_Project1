@@ -1,0 +1,28 @@
+html, body{margin: 0;padding: 0;font-family: "Gothic A1", sans-serif;}
+ul, ol, li{list-style: none;}
+button, a{cursor: pointer;}
+button, a, li{color: black;}
+a:link, a:hover, a:focus, a:visited{text-decoration: none;}
+span, a, p, button{font-family: "Gothic A1", sans-serif; font-weight: 400; font-style: normal;}
+
+header{position: fixed; left: 0; top: 0; right: 0; background-color: white; z-index: 100;}
+section{margin-top: 150px;}
+
+.header__wrapper__above{width: 100%;}
+.header__above__set{display: flex; align-items: center; justify-content: center; background-color: rgb(49, 100, 241);}
+.header__above__wrapper{width: 1280px; display: flex; justify-content: flex-end;}
+.header__above__menu{padding: 15px 10px 15px 15px;}
+.header__above__wrapper a{color: white; font-size: 15px;}
+.header__above__wrapper a:hover{font-weight: 600;}
+
+.header__wrapper__below{ width: 100%; border-bottom: 1px solid rgb(211, 211, 211);}
+.header__below__set{display: flex; align-items: center; justify-content: center;}
+.header__below__wrapper{width: 1280px; display: flex; align-items: center;}
+
+.header__below__left{display: flex; align-items: center; justify-content: center;}
+.header__below__left img{width: 170px;}
+
+.header__below__menu{display: flex; width: 1110px; justify-content: flex-end;}
+.header__menu__item{width: 90px; height: 100px; display: flex; align-items: center; justify-content: center;}
+.header__menu__item:hover{background-color: rgb(204, 203, 203);}
+.header__menu__item a{font-size: 15px;}
