@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+
 @Controller
 @RequestMapping("/student")
 public class StudentController {
@@ -45,18 +46,6 @@ public class StudentController {
 		return "student/comp_popup";
 	}
 	
-	
-	@GetMapping("/stu_resume")
-	public String resume_supportCenter() {
-		
-		return "student/resume_supportCenter";
-	}
-	
-	@GetMapping("/stu_jobpost")
-	public String resume_jobpost() {
-		
-		return "student/resume_jobpost";
-	}
 	
 	
 }

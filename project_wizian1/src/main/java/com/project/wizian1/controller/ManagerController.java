@@ -10,7 +10,6 @@ public class ManagerController {
 	
 	@GetMapping("/managerPage")
 	public String managerPage() {
-		
 		return "mn/managerPage";
 	}
 
