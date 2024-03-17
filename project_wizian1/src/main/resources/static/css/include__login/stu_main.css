@@ -42,8 +42,8 @@ span, a, p, button{font-family: "Gothic A1", sans-serif; font-weight: 400; font-
   color: rgb(255, 0, 0);
   border-radius: 50%;
   position: absolute;
-  top: -23px;
-  right: 112px;
+  top: -20px;
+  right: 142px;
   animation-name: floating;
   animation-duration: 1.2s;
   animation-iteration-count: infinite;
