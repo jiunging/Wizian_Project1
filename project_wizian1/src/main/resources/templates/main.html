@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
   <title>제이커리어</title>
 </head>
 <body>
-  <div id="header"></div>
+  <div th:include="/include/header"></div>
 
   <section>
 
@@ -23,17 +23,17 @@
 
           <div class="section__first__login">
 
-            <a href="" class="section__first__student">
+            <a href="/user/join" class="section__first__student">
               <img src="/img/student.jpg" alt="학생로그인">
               <span>학생</span>
             </a>
 
-            <a href="" class="section__first__company">
+            <a href="/user/join" class="section__first__company">
               <img src="/img/company.jpg" alt="">
               <span>기업</span>
             </a>
 
-            <a href="" class="section__first__university">
+            <a href="/user/join" class="section__first__university">
               <img src="/img/university.jpg" alt="">
               <span>교직원</span>
             </a>
@@ -85,6 +85,6 @@
 
   </section>
 
-  <div id="footer"></div>
+  <div th:include="/include/footer"></div>
 </body>
 </html>
