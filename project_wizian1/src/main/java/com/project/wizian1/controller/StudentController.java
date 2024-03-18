@@ -46,6 +46,8 @@ public class StudentController {
 		return "student/comp_popup";
 	}
 	
+
+	
 	
 	
 }

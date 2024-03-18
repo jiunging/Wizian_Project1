@@ -79,9 +79,9 @@ $(document).ready(function(){
     if (phoneNumber.length >= 3) {
         formattedPhoneNumber += phoneNumber.substr(0, 3);
         if (phoneNumber.length >= 7) {
-            formattedPhoneNumber += '-' + phoneNumber.substr(3, 4) + '-' + phoneNumber.substr(7, 4);
+            formattedPhoneNumber += phoneNumber.substr(3, 4) +  phoneNumber.substr(7, 4);
         } else if (phoneNumber.length > 3) {
-            formattedPhoneNumber += '-' + phoneNumber.substr(3);
+            formattedPhoneNumber +=  phoneNumber.substr(3);
         }
     } else {
         formattedPhoneNumber += phoneNumber;
