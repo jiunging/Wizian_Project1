@@ -330,8 +330,8 @@
                             <h1>공고 등록</h1>
                         </div>
                         <div >
-                            <h3 class="header_hthree">공고 제목</h3><input type="text" class="header_main_title"
-                                placeholder="구직자가 혹할만한 제목을 정해주세요" >
+                            <h3 class="header_hthree" >공고 제목</h3><input type="text" class="header_main_title"
+                                placeholder="구직자가 혹할만한 제목을 정해주세요" name="header_main_title" >
                         </div>
                     </header>
                     <div class="big_border">
@@ -340,26 +340,26 @@
                                 <h2>모집분야</h2>
                             </div>
                             <div class="middle_box">
-                                <h5 class="middle_writer">직무, 직업</h5>
+                                <h5 class="middle_writer" id="middle_writer">직무, 직업</h5>
                             </div>
-                            <div class="middle_box"><input type="text" class="middle_content"
+                            <div class="middle_box"><input type="text" class="middle_content" name="middle_content"
                                     placeholder="구직자가 잘 선택하도록 직무와 직업을 적어주세요.">
                             </div>
                             <div class="middle_box">
                                 <h5 class="middle_writer">모집분야</h5>
                             </div>
-                            <div class="middle_box"><input type="text" class="middle_content"
+                            <div class="middle_box"><input type="text" class="middle_content" name="middle_content_catergory"
                                     placeholder="어떤 분야의 구직자를 구하는지 기입해주세요.">
                             </div>
                             <div>
                                 <h5 class="middle_writer">모집인원</h5>
                             </div>
-                            <div class="middle_box"><input type="text" class="middle_content"
+                            <div class="middle_box"><input type="text" class="middle_content" name="middle_middle_people"
                                     placeholder="모집인원을 써주세요"></div>
                             <div class="middle_box">
                                 <h5 class="middle_writer">경력</h5>
                             </div>
-                            <div class="middle_box"><input type="text" class="middle_content"
+                            <div class="middle_box"><input type="text" class="middle_content" name="middle_middle_writer"
                                     placeholder="신입을 원하는지 경력 몇년차를 원하는지 기입해주세요">
                             </div>
 
@@ -372,9 +372,9 @@
                                 <h5 class="middle_two_writer">지원자 학력</h5>
                             </div>
                             <div class="middle_two_box_checkbox">
-                                <h5 class="middle_two_people"><input type="checkbox" class="middle_two_checkbox">졸업예정자
+                                <h5 class="middle_two_people"><input type="checkbox" class="middle_two_checkbox"  name="middle_two_checkbox_two">졸업예정자
                                     
-                                    가능<select id="" class="middle_two_select">
+                                    가능<select id="" class="middle_two_select" name="middle_two_select">
                                         <option value="졸업">졸업</option>
                                         <option value="졸업예정">졸업예정</option>
                                         <option value="미졸업">미졸업</option>
@@ -385,7 +385,7 @@
                             <div class="middle_two_box">
                                 <h5 class="middle_two_writer">근무지역</h5>
                             </div>
-                            <div class="middle_two_box"><input type="text" class="middle_two_content_content"
+                            <div class="middle_two_box"><input type="text" class="middle_two_content_content" name="middle_two_content_content"
                                     placeholder="구직자가 근무하여야 할 지역을 기입해주세요">
                             </div>
                             <div class="middle_two_box">
@@ -394,10 +394,10 @@
                             <div class="middle_two_box">
                                 <div class="middle_two_content">
                                     <p class="middle_two_maintext"><input type="checkbox"
-                                            class="middle_two_checkbox">정규직</p>
+                                            class="middle_two_checkbox" name="middle_two_checkbox_one">정규직</p>
                                     <p class="middle_two_maintext"><input type="checkbox"
-                                            class="middle_two_checkbox">계약직</p>
-                                    <p class="middle_two_maintext"><input type="checkbox" class="middle_two_checkbox">인턴
+                                            class="middle_two_checkbox"  name="middle_two_checkbox_two_two">계약직</p>
+                                    <p class="middle_two_maintext"><input type="checkbox" class="middle_two_checkbox"  name="middle_two_checkbox_three">인턴
                                     </p>
                                 </div>
                                 <div class="middle_two_box">
@@ -407,10 +407,10 @@
                             </div>
                             <div class="middle_two_box_good">
                                 <div class="middle_two_box_good_nice">
-                                    <p class="middle_two_content_box_hello"><input type="text" class="middle_two_content_box" placeholder="   급여을 적어주세요"><h4 class="middle_two_content_box_name">원</h4></p>
+                                    <p class="middle_two_content_box_hello"><input type="text" class="middle_two_content_box" name="middle_two_content_box" placeholder="   급여을 적어주세요"><h4 class="middle_two_content_box_name">원</h4></p>
                             </div>
                             <div class="middle_two_box_good_nice">
-                                <p class="middle_two_content_box_hello"><h4 class="middle_two_content_box_feel">주</h4><input type="text" class="middle_two_content_box" placeholder="   근무시간을 적어주세요"><h4 class="middle_two_content_box_name_time">시간</h4></p>
+                                <p class="middle_two_content_box_hello"><h4 class="middle_two_content_box_feel">주</h4><input type="text" class="middle_two_content_box_box" name="middle_two_content_box_content" placeholder="   근무시간을 적어주세요"><h4 class="middle_two_content_box_name_time">시간</h4></p>
                             </div>
                             </div>
 
@@ -420,10 +420,10 @@
                                 <h2>인사담당자 / 기업정보</h2>
                             </div>
                             <div class="middle_three_box">
-                                <h5 class="middle_three_writer">담당자명</h5>
+                                <h5 class="middle_three_writer" >담당자명</h5>
                             </div>
                             <div class="middle_three_box">
-                                <div class="middle_three_box"><input type="text" class="middle_three_content"
+                                <div class="middle_three_box"><input type="text" class="middle_three_content" name="middle_three_writer"
                                         placeholder="담당자 이름을 적어주세요">
                                 </div>
                             </div>
@@ -432,19 +432,19 @@
                             </div>
                             <div class="middle_three_box">
                                 <div class="middle_three_box"><input type="text" class="middle_three_content"
-                                        placeholder="담당자 연락처나 기업연락처를 적어주세요."></div>
+                                       name="middle_three_writer_phone" placeholder="담당자 연락처나 기업연락처를 적어주세요."></div>
                             </div>
                             <div class="middle_three_box">
                                 <h5 class="middle_three_writer">이메일</h5>
                             </div>
                             <div class="middle_three_box">
-                                <div><input type="text" class="middle_three_content" placeholder="메일을 적어주세요."></div>
+                                <div><input type="text" class="middle_three_content" name="middle_three_content_email" placeholder="메일을 적어주세요."></div>
                             </div>
                             <div class="middle_three_box">
                                 <h5 class="middle_three_writer">업종</h5>
                             </div>
                             <div class="middle_three_box">
-                                <div><select class="middle_three_content_select">
+                                <div><select class="middle_three_content_select" name="middle_three_content_select">
                                         <option value="IT 업종">IT 업종</option>
                                         <option value="서비스 업종">서비스 업종</option>
                                         <option value="화장품 업종">화장품 업종</option>
@@ -463,14 +463,14 @@
                                 <h5 class="middle_three_writer">핸드폰번호</h5>
                             </div>
                             <div class="middle_three_box">
-                                <div><input type="text" class="middle_three_content" placeholder="휴대폰 번호 입력('-'제외)">
+                                <div><input type="text" class="middle_three_content" name="phone" placeholder="휴대폰 번호 입력('-'제외)">
                                 </div>
                             </div>
                             <div class="middle_three_box">
                                 <h5 class="middle_three_writer">담당자 부서명</h5>
                             </div>
                             <div class="middle_three_box">
-                                <div><input type="text" class="middle_three_content" placeholder="부서명을 적어주새요."></div>
+                                <div><input type="text" class="middle_three_content" name="document" placeholder="부서명을 적어주새요."></div>
                             </div>
 
                         </middle_three>
